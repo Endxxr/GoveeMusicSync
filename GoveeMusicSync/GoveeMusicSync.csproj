@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.22000.0</TargetFramework>
+	<TargetPlatformVersion>8.0</TargetPlatformVersion>
+	<Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+	<UseWindowsForms>false</UseWindowsForms>
+	<ApplicationIcon>play.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="play.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="dotenv.net" Version="3.2.1" />
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
+    <PackageReference Include="NAudio" Version="2.2.1" />
+    <PackageReference Include="SpotifyAPI.Web" Version="7.2.1" />
+	<PackageReference Include="SpotifyAPI.Web.Auth" Version="7.2.1" />
+	<PackageReference Include="System.Drawing.Common" Version="9.0.3" />
+  </ItemGroup>
+	
+</Project>

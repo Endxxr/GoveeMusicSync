@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "GoveeMusicSync": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "SPOTIFY_CLIENT_ID": "863d79da83a144e6a1b7ce769e1d1834",
+        "SPOTIFY_CLIENT_SECRET": "dc3d22a15d034456b7788d23d84ce8e4"
+      }
+    }
+  }
+}
